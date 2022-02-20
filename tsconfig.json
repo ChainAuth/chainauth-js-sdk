@@ -6,8 +6,9 @@
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "Node",
     "sourceMap": true,
-    "outDir": "dist",
+    "outDir": "./lib",
     "baseUrl": "./src",
+    "declaration": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "paths": {

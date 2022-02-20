@@ -1,0 +1,26 @@
+{
+  "name": "chainauth-js-sdk",
+  "version": "0.0.1",
+  "description": "chainauth javascript/typescript sdk use for connect you application with ChainAuth",
+  "main": "index.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChainAuth/chainauth-js-sdk.git"
+  },
+  "author": "ChainAuth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChainAuth/chainauth-js-sdk/issues"
+  },
+  "homepage": "https://github.com/ChainAuth/chainauth-js-sdk#readme",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
