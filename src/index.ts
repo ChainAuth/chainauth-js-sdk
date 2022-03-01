@@ -10,6 +10,7 @@ class PublicClient {
   private _ethProvider: ethers.providers.Web3Provider;
 
   constructor(settings?: ClientSettings) {
+    if (!settings) return;
     this.setSettings(settings);
     if (this.settings?.apiKey) {
       this._axios = this._newAxios();
